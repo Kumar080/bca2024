@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: 500px;
+    
+}
+.main-header{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+
+}
+.main-header .logo{
+    width: 20%;
+    background: orange;
+    
+}

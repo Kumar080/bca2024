@@ -1,0 +1,1641 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* === Header section start === */
+
+.bbc-header {
+    width: 100%;
+    height: 60px;
+    background: black;
+
+}
+
+.bbc-header-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 20%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo .logo-text {
+    width: 45%;
+    line-height: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo .logo-text .btext {
+    width: 30%;
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo .account {
+    width: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.account i {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.logo .account:hover {
+    border-bottom: 2px solid #4040fc;
+}
+
+.logo .account span {
+    font-size: 16px;
+
+}
+
+
+.menu {
+    width: 62%;
+    height: 40px;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    min-width: 80px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover {
+    border-bottom: 2px solid white;
+    transition-duration: 0.2s;
+}
+
+.menu ul li i {
+    margin-top: 8px;
+
+}
+
+.search {
+    width: 25%;
+    height: 40px;
+    background-color: rgb(32, 31, 31);
+}
+
+.search button {
+    min-width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(32, 31, 31);
+    border: none;
+    color: white;
+
+}
+
+.search span input {
+    width: 79%;
+    line-height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(32, 31, 31);
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: rgb(202, 201, 201);
+}
+
+.bodycontainer {
+    width: 90%;
+    justify-items: center;
+    margin: auto;
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+}
+
+.bodycontainer .section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodycontainer .section h1 {
+    font-size: 25px;
+}
+
+/* === Header section end === */
+
+/*=== Welcome to BBC.com section start === */
+
+.bbc-body {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+
+.bbc-body .sectionA {
+    position: relative;
+    width: 49.2%;
+    background: black;
+}
+
+.sectionA img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.sectionA img:hover {
+    opacity: 0.7;
+}
+
+.pictureAdis {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    width: 90%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.bbc-body .sectionB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.sectionB .sectionBA {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 169px;
+}
+
+.sectionB .sectionBB {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 169px;
+}
+
+.sectionBA .sectionBAa {
+    position: relative;
+    width: 49%;
+    background-color: rgb(29, 13, 13);
+}
+
+.sectionBAa img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.sectionBAa img:hover {
+    opacity: 0.7;
+}
+
+.pictureAdiss {
+    margin-left: 18px;
+    top: 80px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.pictureAdiss h3 a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+
+.pictureAdiss h3 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.sectionBA .sectionBAb {
+    position: relative;
+    background-color: rgb(29, 13, 13);
+    width: 49%;
+
+}
+
+.sectionBAb img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.sectionBAb img:hover {
+    opacity: 0.7;
+}
+
+
+.sectionBB .sectionBBa {
+    position: relative;
+    background-color: rgb(29, 13, 13);
+    width: 49%;
+
+}
+
+.sectionBBa img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.sectionBBa img:hover {
+    opacity: 0.7;
+}
+
+.sectionBB .sectionBBb {
+    position: relative;
+    background-color: rgb(29, 13, 13);
+    width: 49%;
+
+}
+
+.sectionBBb img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.sectionBBb img:hover {
+    opacity: 0.7;
+}
+
+/*=== Welcome to BBC.com section end === */
+
+/* news section start */
+
+.newsSection {
+    margin-top: 18px;
+    width: 90%;
+    display: flex;
+}
+
+.newsSection .line {
+    margin-top: 27px;
+    width: 3px;
+    height: 19px;
+    background: red;
+}
+
+.news a {
+    text-decoration: none;
+}
+
+.news a h2:hover {
+    color: rgb(17, 17, 17);
+}
+
+.news a h2 {
+    width: 90%;
+    height: 20px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+
+.newsContainer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 420px;
+
+}
+
+.newsContainer .newsconA {
+    width: 32.2%;
+    height: 210px;
+    position: relative;
+}
+
+.newsconA a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsContainer .newsconB {
+    width: 32.2%;
+    height: 220px;
+    position: relative;
+}
+
+.newsconB a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsContainer .newsconC {
+    width: 32.2%;
+    height: 220px;
+    position: relative;
+}
+
+.newsconC a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsconA img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+}
+
+.newsconA img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.newsconB img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+}
+
+.newsconB img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.newsconC img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+}
+
+.newsconC img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.newsconAa {
+    position: relative;
+    top: 205px;
+    color: black;
+    cursor: pointer;
+}
+
+.sportconAa a {
+    text-decoration: none;
+}
+
+.latin:hover {
+    text-decoration: underline;
+    color: rgb(99, 99, 99);
+}
+
+/* news section end */
+
+/* sport section :start */
+
+.sport {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.sportline {
+    margin-top: 27px;
+    width: 3px;
+    height: 19px;
+    background: yellow;
+}
+
+.sporttext a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+.sporttext a h2 {
+    width: 90%;
+    font-size: 26px;
+    height: 20px;
+    margin-left: 13px;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.sporttext a h2:hover {
+    color: rgb(17, 17, 17);
+}
+
+.sportcontainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+}
+
+.sportcontainer .sportconA {
+    width: 32.2%;
+    height: 210px;
+    position: relative;
+}
+
+.sportcontainer .sportconB {
+    width: 32.2%;
+    height: 210px;
+    position: relative;
+}
+
+.sportcontainer .sportconC {
+    width: 32.2%;
+    height: 210px;
+    position: relative;
+}
+
+.sportconA img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+}
+
+.sportconA img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sportconB img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+
+}
+
+.sportconB img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sportconC img {
+    position: absolute;
+    width: 100%;
+    height: 100%px;
+    opacity: 0.9;
+}
+
+.sportconC img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sportconAa {
+    position: relative;
+    top: 205px;
+    color: black;
+    cursor: pointer;
+}
+
+.sportcontainer a {
+    color: black;
+}
+
+/* Sport section end */
+
+
+/* WeatherSection start */
+.weather {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.weathertext h3 {
+    color: rgb(70, 70, 70);
+    font-size: 21px;
+}
+
+.weatherbutton {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.weatherbutton button {
+    background: rgb(218, 218, 218);
+    border: none;
+    color: rgb(109, 109, 109);
+    font-size: 10px;
+    padding: 6px 7px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.logosection {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.logosection .logosection1 {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logosection p {
+    margin: -4px;
+    padding: -4px;
+    cursor: pointer;
+}
+
+.logosection1 .psection p a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logosection1 .psection p a:hover {
+    text-decoration: underline;
+}
+
+/* Weather Section end */
+
+/* Earth Section start */
+.earth {
+    margin: auto;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    background-color: black;
+}
+
+.earthimg img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.earthbuttons {
+    margin: auto;
+    padding-top: 35px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.earthbuttons .earthbutton1 {
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    border: 2px solid green;
+    line-height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.earthbuttons .earthbutton2 {
+    padding: 0 13px;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: 0.3px solid white;
+    border-radius: 20px;
+    line-height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.earthbuttons .earthbutton2 i {
+    padding-left: 60px;
+}
+
+.earthtext {
+    margin: auto;
+    padding-top: 10px;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    height: 38px;
+}
+
+.earthsection {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+}
+
+.earthsection .earthsection1 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.earthsection .earthsection2 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+}
+
+.earthsection .earthsection3 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+}
+
+.earthsection1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.earthsection1 img:hover {
+    opacity: 1;
+}
+
+.earthsection2 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.earthsection2 img:hover {
+    opacity: 1;
+}
+
+.earthsection3 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.earthsection3 img:hover {
+    opacity: 1;
+}
+
+.earthtext1 {
+    padding: 10px 12px;
+    bottom: 4px;
+    background: white;
+    color: rgb(100, 100, 100);
+    font-weight: bolder;
+    font-size: 21px;
+    cursor: pointer;
+    position: relative;
+}
+
+.earthsection1 a {
+    text-decoration: none;
+}
+
+.earthsection2 a {
+    text-decoration: none;
+}
+
+.earthsection3 a {
+    text-decoration: none;
+}
+
+/* Earth Section end */
+
+/* Asian News Section start */
+
+.asiannews {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-top: 8px;
+}
+
+.asiannews .asiannewsline {
+    width: 2.9px;
+    height: 21px;
+    background: red;
+    margin-top: 27px;
+}
+
+.news a {
+    text-decoration: none;
+}
+
+.news {
+    width: 137px;
+}
+
+.news a h2:hover {
+    color: rgb(17, 17, 17);
+}
+
+.news a h2 {
+    font-size: 27px;
+    height: 20px;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.asianewssection {
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.asianewssection .asianewssection1 {
+    width: 24.02%;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.asianewssection .asianewssection2 {
+    width: 24.02%;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+}
+
+.asianewssection .asianewssection3 {
+    width: 24.02%;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+}
+
+.asianewssection .asianewssection4 {
+    width: 24.02%;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.asianewssection1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.asianewssection1 img:hover {
+    opacity: 1;
+}
+
+.asianewssection2 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.asianewssection2 img:hover {
+    opacity: 1;
+}
+
+.asianewssection3 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.asianewssection3 img:hover {
+    opacity: 1;
+}
+
+.asianewssection4 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+}
+
+.asianewssection4 img:hover {
+    opacity: 1;
+}
+
+.asiantext1 {
+    height: 205px;
+    margin-top: -22px;
+    bottom: 4px;
+    background: white;
+    color: rgb(31, 31, 31);
+    font-weight: bolder;
+    font-size: 21px;
+    cursor: pointer;
+    position: relative;
+}
+
+#subtitle,
+#subtitleA,
+#subtitleB,
+#subtitleC {
+    margin-top: -12px;
+    color: rgb(100, 100, 100);
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.asiantext2 {
+    margin: auto;
+    display: flex;
+}
+
+.text2line {
+    width: 2px;
+    height: 15px;
+    background: red;
+    cursor: pointer;
+}
+
+.text2heading {
+    width: 100%;
+    cursor: pointer;
+}
+
+.text2heading a {
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.text2heading:hover {
+    text-decoration: underline;
+    color: rgb(104, 104, 104);
+}
+
+/* Asian News Section end */
+
+/* Editor’s Picks Section Start */
+
+.editorsection {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.editorline {
+    margin-top: 23px;
+    width: 3px;
+    height: 19px;
+    background: rgb(84, 84, 240);
+}
+
+.editortext h2 {
+    margin-left: 10px;
+    font-weight: bolder;
+    color: rgb(82, 82, 82);
+}
+
+.editorbody {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.editorbody .editorbodyA {
+    width: 65.4%;
+    background: black;
+    position: relative;
+}
+
+.editorbody .editorbodyB {
+    width: 33.4%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editorbodyB .businessheading {
+    width: 100%;
+    height: 8%;
+    background: red;
+}
+
+.businessheading p {
+    padding-left: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.editorbodyB .businessA {
+    width: 100%;
+    height: 21.57%;
+    background: rgb(56, 52, 52);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.editorbodyB .businessB {
+    width: 100%;
+    height: 21.57%;
+    background: rgb(44, 44, 44);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.editorbodyB .businessC {
+    width: 100%;
+    height: 21.57%;
+    background: rgb(58, 54, 54);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.editorbodyB .businessD {
+    width: 100%;
+    height: 21.57%;
+    background: rgb(44, 44, 44);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.businessA .sncir {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+#sncirr {
+    margin-top: 11px;
+    font-style: italic;
+    padding-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.businessA .sntext {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.businessA .sntext:hover {
+    color: white;
+}
+
+.businessB .sncir {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+#sncirrB {
+    margin-top: 11px;
+    font-style: italic;
+    padding-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.businessB .sntext {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.businessB .sntext:hover {
+    color: white;
+}
+
+.businessC .sncir {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+#sncirrC {
+    margin-top: 11px;
+    font-style: italic;
+    padding-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.businessC .sntext {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.businessC .sntext:hover {
+    color: white;
+}
+
+.businessD .sncir {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+#sncirrD {
+    margin-top: 11px;
+    font-style: italic;
+    padding-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.businessD .sntext {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    color: rgb(194, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.businessD .sntext:hover {
+    color: white;
+}
+
+
+.editorbody1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editorbody11 {
+    margin-top: 15px;
+    margin-left: 5%;
+    width: 58.9%;
+    display: flex;
+    height: 355px;
+    justify-content: space-between;
+}
+
+.editorbody11 .editorbody1A {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody1A img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody1A img:hover {
+    opacity: 0.9;
+}
+
+.editorbody11 .editorbody1B {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody1B img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody1B img:hover {
+    opacity: 0.9;
+}
+
+.editorbody11 .editorbody1C {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody1C img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody1C img:hover {
+    opacity: 0.9;
+}
+
+.editor1Atext {
+    color: white;
+    position: absolute;
+    margin-top: 152px;
+    padding-left: 5px;
+
+}
+
+.editor1Atext p {
+    color: rgb(20, 20, 20);
+    margin: 5px;
+    padding: 2px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#editor1Atex {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.editorbody1A .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody1A .asiantext2 .text2line {
+    background: #5a5abb;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+#editor1Atextt {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+#editor1Atexttt {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.editorbody1B .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody1B .asiantext2 .text2line {
+    background: #505050;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+.editorbody1C .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody1C .asiantext2 .text2line {
+    background: #181717;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+
+.editorbodyA img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.editorbodyA img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.editorbodytext {
+    position: absolute;
+    top: 310px;
+    padding-left: 20px;
+}
+
+.editorbodyA a {
+    text-decoration: none;
+}
+
+#editorbodytexth {
+    margin: 10px 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#editorbodytexthh {
+    margin: 0 0 15px 0;
+    color: rgb(204, 204, 204);
+    font-size: 21px;
+
+}
+
+.editorbodyA .asiantext2 .text2line {
+    margin-top: 2px;
+    background: rgb(114, 190, 114);
+}
+
+.editorbodyA .asiantext2 .text2heading a {
+    color: white;
+}
+
+.editorbody12 {
+    margin: 94px 5% 0 0;
+    width: 29.95%;
+    height: 280px;
+}
+
+.editorbody2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 58.9%;
+    height: 355px;
+}
+
+.editorbody2 .editorbody2A {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody2A img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody2A img:hover {
+    opacity: 0.9;
+}
+
+.editorbody2 .editorbody2B {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody2B img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody2B img:hover {
+    opacity: 0.9;
+}
+
+.editorbody2 .editorbody2C {
+    width: 32%;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.editorbody2C img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.editorbody2C img:hover {
+    opacity: 0.9;
+}
+
+.editor2Atext {
+    color: white;
+    position: absolute;
+    margin-top: 152px;
+    padding-left: 5px;
+
+}
+
+.editor2Atext p {
+    color: rgb(20, 20, 20);
+    margin: 5px;
+    padding: 2px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#editor2Atex {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.editorbody2A .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody2A .asiantext2 .text2line {
+    background: #5a5abb;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+#editor2Atextt {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.editorbody2B .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody2B .asiantext2 .text2line {
+    background: #79797c;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+#editor2Atexttt {
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.editorbody2C .asiantext2 {
+    position: absolute;
+    top: 325px;
+}
+
+.editorbody2C .asiantext2 .text2line {
+    background: #272727;
+    margin-left: 10px;
+    margin-right: -9px;
+    height: 13px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+.editorparent {
+    background: rgb(243, 242, 242);
+    height: 1280px;
+}
+
+/* Editor’s Picks Section End */
+
+/* Reel Section Start */
+
+ .reeltext a{
+    color: white;
+    font-size: 51px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+}
+.reeltext p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    cursor: auto;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.reel {
+    margin: auto;
+    width: 100%;
+    height: 460px;
+    position: relative;
+    background-color: black;
+}
+
+.reelheading img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.reelbuttons {
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.reelbuttons .reelbtn {
+    position: relative;
+margin: 35px 0 30px 0;
+background: transparent;
+color: white;
+border: 0.3px solid white;
+border-radius: 20px;
+font-size: 18px;
+cursor: pointer;
+}
+.reelbuttons .reelbtn:hover{
+    background: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.reelbuttons .reelbtn i{
+padding: 5px;
+color: #9b9b9b;
+}
+
+
+.reelbody {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 290px;
+}
+
+.reelbody .reelbody1 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.reelbody .reelbody2 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+}
+
+.reelbody .reelbody3 {
+    width: 32.52%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+}
+
+.reelbody1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.8;
+    transition-duration: 0.4s;
+}
+
+.reelbody1 img:hover {
+    opacity: 1;
+}
+
+.reelbody2 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.8;
+    transition-duration: 0.4s;
+}
+
+.reelbody2 img:hover {
+    opacity: 1;
+}
+
+.reelbody3 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0.8;
+    transition-duration: 0.4s;
+}
+
+.reelbody3 img:hover {
+    opacity: 1;
+}
+
+.reeltext1 {
+    padding: 10px 12px;
+    bottom: 4px;
+    background: white;
+    color: rgb(71, 71, 71);
+    font-weight: bolder;
+    font-size: 21px;
+    cursor: pointer;
+    position: relative;
+    height: 50px;
+}
+
+.reelbody1 a {
+    text-decoration: none;
+}
+
+.reelbody2 a {
+    text-decoration: none;
+}
+
+.reelbody3 a {
+    text-decoration: none;
+}

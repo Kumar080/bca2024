@@ -1,0 +1,44 @@
+.parent{
+    width: 800px;
+    height: 700px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin: auto;
+
+
+    
+
+}
+.parent .container{
+    width: 200px;
+    height:200px;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+
+}
+.parent .container1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+   
+    
+}
+.parent .container .box{
+    width : 50px;
+    height: 50px;
+    background-color: black;
+    margin: 20px;
+
+
+}
+
+.parent .container .box1{
+    width : 50px;
+    height: 50px;
+    background-color: orange;
+    margin: 20px;
+}
